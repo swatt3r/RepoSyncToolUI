@@ -1,5 +1,9 @@
 # ReposyncUI
 
+Пользовательский интерфей для приложения(серверной части), которое синхронизирует репозиториии из исходного сервиса в целевой сервис (или локальный репозиторий).
+
+Ссылка на исходное приложение(серверную часть): https://github.com/swatt3r/RepoSyncTool
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
 ## Development server
