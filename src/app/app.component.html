@@ -8,7 +8,7 @@
         <button mat-button (click)="syncWithSource(item)">
           <mat-icon *ngIf="item.status == null">autorenew</mat-icon>
           <mat-icon class="green" *ngIf="item.status == 200">done</mat-icon>
-          <mat-icon class="red" *ngIf="item.status > 400">close</mat-icon>
+          <mat-icon class="red" *ngIf="item.status >= 400">close</mat-icon>
         </button>
       </mat-list-item>
     </mat-list>
@@ -23,7 +23,7 @@
         <button mat-button (click)="syncWithTarget(item)">
           <mat-icon *ngIf="item.status == null">autorenew</mat-icon>
           <mat-icon class="green" *ngIf="item.status == 200">done</mat-icon>
-          <mat-icon class="red" *ngIf="item.status > 400">close</mat-icon>
+          <mat-icon class="red" *ngIf="item.status >= 400">close</mat-icon>
         </button>
       </mat-list-item>
     </mat-list>
